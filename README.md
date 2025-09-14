@@ -30,9 +30,9 @@
 ```cpp
 struct FInventoryItem 
 { 
-int64 ItemID; // 8 байт, выравнивание 8 
-int32 Quantity; // 4 байта, выравнивание 4 
-bool bIsEquipped; // 1 байт, выравнивание 1 
+    int64 ItemID; // 8 байт, выравнивание 8 
+    int32 Quantity; // 4 байта, выравнивание 4 
+    bool bIsEquipped; // 1 байт, выравнивание 1 
 };
 ```
 
