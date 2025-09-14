@@ -70,7 +70,7 @@ struct FInventoryItem
 | Слабые указатели TSoftObjectPtr/TSoftClassPtr |            24            |                8                |
 
 
-## ❗ 2.3 Важные моменты
+### ❗ 2.3 Важные моменты
 * Data Table vs Data Asset - это вечная проблема выбора и компромиссов. Если вы знаете границы проекта то выбор не составит труда, но для больших проектов нужны плюсы из обоих миров. Я попытался решить эту дилемму в своём проекте [Project Wildcard](https://github.com/Erdeni23/Project-Wildcard-UE-5.6-Tool) - генерация дата ассетов по строчке в дата тейбле.
 * Инстанцированные структуры (Insantced Structs) - очень удобный инструмент для мимикрирования полиморфизма в структурах, ваша таблица будет выглядеть примерно вот так: 
 	 <img width="910" height="145" alt="Pasted image 20250914203603" src="https://github.com/user-attachments/assets/7b18f67b-20ca-44b6-bdbc-3786dc6acef4" />
